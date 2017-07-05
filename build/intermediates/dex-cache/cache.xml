@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\68c95fc2303171043a1235460d8a7bf3f4cac0ef\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="40e5cb8708fc25fe57cb403cc82e9ef98376b648">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_3aace75cf570201d4a83352fa0bb53997321a198.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\f3f6cae4dae6d73cb0d601b5c0a38b5717382d85\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="145da27a459a63ea0c4e318930365cf0a8b8e891">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_a3e2ecc0089f4147f5f3d6253660c37e65dd9c4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_71071f51e3d5e66ee15c04ed9667763cea85093d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_912b701c50d8d0025cfb51e4c9bc90007b012708.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\c9badf33492058f2056ee61e753ba6c1e931f098\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_f5fb11327dcde40f9d0317431831f5e1c75d5f46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\da860155b4b702b3e74895c64fee7bcc621ef157\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_4d033aa73f465d41ff535cc3d7a2dfff37522817.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_f17c2dc0687b4ed26db9a445fcc7bce6dda3fb24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\bb4e93d1c12bfe569cc2a14d5d9cdf8029fdc43f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9b69b69f0f434b79d767329fcf1ca6ba1540c509">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_4f1b31dc3479073b75da212df89494b224e0a5b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_3c146b6d33089dcdbebe8eeb1ed855e0d9e6bd82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\f5dde99a3b7f2e6a52e97fb0a697a7a787c1a66d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_d907095a4e07725cca79769ef3e8c18f1cd6e5bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\6cedc073634af525246dee69aecb2b8c1cf32f1b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_1ce58e25e9f8756403f2d06c23dc8d027eea6642.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\203852b3ab4a90f5523bcaedfe93190e7910a903\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_3df799391f914097ea3808afb2d65781005fa7f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_847cf9541ed5b078336042db8b6bb6262ea62b2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\3c5f40b9e3d98bfc3df34fc89e0e0044511e14b2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_f3449c3813d54a78d469dfd4bc746cdbbdf4e9af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\f449863fd4edceb2f5b9110d697676d2ed84cc98\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_2b00076a7d8b458b969cbbc0f176415f20aa37aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\f4534f35782814d50e8ed0fcb44fd61c1199ccb5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="1e346707e4770db216049a532ab3eb5e317cf82a">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_19b752bc2021ccd957251d9b05d98d57180ad4f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\0bb000d109e714d464475b8447be3e0387c5e580\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_36e395c8d6bf6339a991f0d65d5d7e93914261ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\daf38189b94314688ff677c827154a4b969cff20\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_535af6873114d769cc60481087f125762b17cebd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\72b03fbdbc8628290b438ab37e17c911e2ad7443\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_4b4467b6d58b766936998b2a1bc92d8c9dacffb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\bfb2c4fc312e0f037505798b381528caeb351a8a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_3f9bfc4c678c2f14ab51f90d5b26840534b7071e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\library-2.4.0_e28b57f5a26069cebd87bf2f598ce4475411d5ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\9209dede9689e05f3480912c52e5987cd4f46748\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a540784239c611ea490593e2053a5e2890675c68">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_0da5aaa9a31389b44adf74f89568796e1dca49ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.4.0_4c1501ee9340d53ebc9aa19ec1a62d145722c31d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\aa74f623110d61f05e18a7b2c135f6b9c7a52683\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_4c6792c0d28bac2db2ca96be0f90b8abe020557c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\ea225d01727cd236b41695f15b4b06a2acbb5f46\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c9a86e6bc8300fc00c191949ac61a2f7165e35c7">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_2ace2530c9f06eaeca3fec90e77bd5d7bafa6c80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\bc850654a8953486fc67f0530070ce344ff98e48\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_ed5f3b4d495ebac0accd1ed8ee86a1457bfc86b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_912b701c50d8d0025cfb51e4c9bc90007b012708.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\f3f6cae4dae6d73cb0d601b5c0a38b5717382d85\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="145da27a459a63ea0c4e318930365cf0a8b8e891">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_a3e2ecc0089f4147f5f3d6253660c37e65dd9c4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\c9badf33492058f2056ee61e753ba6c1e931f098\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_f5fb11327dcde40f9d0317431831f5e1c75d5f46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\68c95fc2303171043a1235460d8a7bf3f4cac0ef\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="40e5cb8708fc25fe57cb403cc82e9ef98376b648">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_3aace75cf570201d4a83352fa0bb53997321a198.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_3c146b6d33089dcdbebe8eeb1ed855e0d9e6bd82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_f17c2dc0687b4ed26db9a445fcc7bce6dda3fb24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\da860155b4b702b3e74895c64fee7bcc621ef157\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_4d033aa73f465d41ff535cc3d7a2dfff37522817.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\bb4e93d1c12bfe569cc2a14d5d9cdf8029fdc43f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9b69b69f0f434b79d767329fcf1ca6ba1540c509">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_4f1b31dc3479073b75da212df89494b224e0a5b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\203852b3ab4a90f5523bcaedfe93190e7910a903\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_3df799391f914097ea3808afb2d65781005fa7f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\6cedc073634af525246dee69aecb2b8c1cf32f1b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_1ce58e25e9f8756403f2d06c23dc8d027eea6642.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\f4534f35782814d50e8ed0fcb44fd61c1199ccb5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1e346707e4770db216049a532ab3eb5e317cf82a">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_19b752bc2021ccd957251d9b05d98d57180ad4f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_71071f51e3d5e66ee15c04ed9667763cea85093d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\f5dde99a3b7f2e6a52e97fb0a697a7a787c1a66d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_d907095a4e07725cca79769ef3e8c18f1cd6e5bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\f449863fd4edceb2f5b9110d697676d2ed84cc98\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_2b00076a7d8b458b969cbbc0f176415f20aa37aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\3c5f40b9e3d98bfc3df34fc89e0e0044511e14b2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_f3449c3813d54a78d469dfd4bc746cdbbdf4e9af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.4.0_4c1501ee9340d53ebc9aa19ec1a62d145722c31d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\9209dede9689e05f3480912c52e5987cd4f46748\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a540784239c611ea490593e2053a5e2890675c68">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_0da5aaa9a31389b44adf74f89568796e1dca49ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_847cf9541ed5b078336042db8b6bb6262ea62b2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\library-2.4.0_e28b57f5a26069cebd87bf2f598ce4475411d5ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\72b03fbdbc8628290b438ab37e17c911e2ad7443\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_4b4467b6d58b766936998b2a1bc92d8c9dacffb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\aa74f623110d61f05e18a7b2c135f6b9c7a52683\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_4c6792c0d28bac2db2ca96be0f90b8abe020557c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\bc850654a8953486fc67f0530070ce344ff98e48\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_ed5f3b4d495ebac0accd1ed8ee86a1457bfc86b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\ea225d01727cd236b41695f15b4b06a2acbb5f46\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c9a86e6bc8300fc00c191949ac61a2f7165e35c7">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_2ace2530c9f06eaeca3fec90e77bd5d7bafa6c80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\bfb2c4fc312e0f037505798b381528caeb351a8a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_3f9bfc4c678c2f14ab51f90d5b26840534b7071e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\daf38189b94314688ff677c827154a4b969cff20\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_535af6873114d769cc60481087f125762b17cebd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new4\.android\build-cache\0bb000d109e714d464475b8447be3e0387c5e580\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="D:\Pet\app\build\intermediates\pre-dexed\debug\classes_36e395c8d6bf6339a991f0d65d5d7e93914261ad.jar" />
+    </item>
+
+</items>

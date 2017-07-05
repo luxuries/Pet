@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\launcher_bg.png",
+        "source": "D:\\Pet\\app\\src\\main\\res\\mipmap-hdpi\\launcher_bg.png"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
+        "source": "F:\\pet\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\icon_back.png",
+        "source": "D:\\Pet\\app\\src\\main\\res\\mipmap-hdpi\\icon_back.png"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
+        "source": "D:\\Pet\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "F:\\pet\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\launcher_bg.png",
+        "source": "F:\\pet\\app\\src\\main\\res\\mipmap-hdpi\\launcher_bg.png"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\icon_back.png",
+        "source": "F:\\pet\\app\\src\\main\\res\\mipmap-hdpi\\icon_back.png"
+    }
+]

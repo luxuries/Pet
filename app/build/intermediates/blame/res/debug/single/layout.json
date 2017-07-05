@@ -1,0 +1,730 @@
+[
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_shopping.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\item_shopping.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\7c03de437bdf5fff8ce1b7ee349abc8fb008fe10\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\0bb000d109e714d464475b8447be3e0387c5e580\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\7c03de437bdf5fff8ce1b7ee349abc8fb008fe10\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\0bb000d109e714d464475b8447be3e0387c5e580\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\7c03de437bdf5fff8ce1b7ee349abc8fb008fe10\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_jx.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\fragment_jx.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_yaowen.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\fragment_yaowen.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_guanfang.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\fragment_guanfang.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mine.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\fragment_mine.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_msg_tuijian_banner.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\item_msg_tuijian_banner.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_shopping.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\header_shopping.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_service.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\fragment_service.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\0bb000d109e714d464475b8447be3e0387c5e580\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mine.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\fragment_mine.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_zhazi.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\fragment_zhazi.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\7c03de437bdf5fff8ce1b7ee349abc8fb008fe10\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\0bb000d109e714d464475b8447be3e0387c5e580\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_pintuan.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\item_pintuan.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\7c03de437bdf5fff8ce1b7ee349abc8fb008fe10\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_home_jx.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\item_home_jx.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\7c03de437bdf5fff8ce1b7ee349abc8fb008fe10\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_shopping_footer.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\item_shopping_footer.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\0bb000d109e714d464475b8447be3e0387c5e580\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_shopping.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\fragment_shopping.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_yaowen.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\fragment_yaowen.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_dt_images.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\item_dt_images.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\7c03de437bdf5fff8ce1b7ee349abc8fb008fe10\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_shopping.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\item_shopping.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\0bb000d109e714d464475b8447be3e0387c5e580\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_service.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\fragment_service.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_dt_images.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\item_dt_images.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\0bb000d109e714d464475b8447be3e0387c5e580\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_home_pd.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\item_home_pd.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pet_msg.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\activity_pet_msg.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_msg_tuijian_banner.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\item_msg_tuijian_banner.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_pintuan.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\item_pintuan.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_leader.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\activity_leader.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\0bb000d109e714d464475b8447be3e0387c5e580\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pd.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\fragment_pd.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_leader.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\activity_leader.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\7c03de437bdf5fff8ce1b7ee349abc8fb008fe10\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\0bb000d109e714d464475b8447be3e0387c5e580\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\0bb000d109e714d464475b8447be3e0387c5e580\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_msg_zazhi.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\item_msg_zazhi.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_miss.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\activity_miss.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tuijian.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\fragment_tuijian.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\0bb000d109e714d464475b8447be3e0387c5e580\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_msg_child.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\item_msg_child.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_home_dt.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\item_home_dt.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_msg_child.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\item_msg_child.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_msg.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\fragment_msg.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dongman.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\fragment_dongman.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_jx.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\header_jx.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_verification_code.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\activity_verification_code.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_shopping.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\header_shopping.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pet_msg.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\activity_pet_msg.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_agree_detial.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\activity_agree_detial.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_jx.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\fragment_jx.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_xuetang.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\fragment_xuetang.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dt.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\fragment_dt.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_leader_viewpager.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\item_leader_viewpager.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_msg_tuijian.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\header_msg_tuijian.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_shop_child.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\item_shop_child.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_home_jx.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\item_home_jx.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\7c03de437bdf5fff8ce1b7ee349abc8fb008fe10\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\7c03de437bdf5fff8ce1b7ee349abc8fb008fe10\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\0bb000d109e714d464475b8447be3e0387c5e580\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\7c03de437bdf5fff8ce1b7ee349abc8fb008fe10\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\0bb000d109e714d464475b8447be3e0387c5e580\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_toolbar.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\layout_toolbar.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_leader_viewpager.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\item_leader_viewpager.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\7c03de437bdf5fff8ce1b7ee349abc8fb008fe10\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\7c03de437bdf5fff8ce1b7ee349abc8fb008fe10\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\7c03de437bdf5fff8ce1b7ee349abc8fb008fe10\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_guanfang.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\fragment_guanfang.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_miss.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\activity_miss.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_msg_zazhi.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\header_msg_zazhi.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_verification_code.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\activity_verification_code.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_msg_tuijian.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\header_msg_tuijian.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tuijian.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\fragment_tuijian.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_agree_detial.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\activity_agree_detial.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_xuetang.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\fragment_xuetang.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dt.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\fragment_dt.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\0bb000d109e714d464475b8447be3e0387c5e580\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dongman.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\fragment_dongman.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_jx.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\header_jx.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_zhazi.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\fragment_zhazi.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_shopping.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\fragment_shopping.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_home_dt.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\item_home_dt.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_msg.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\fragment_msg.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\wei\\.android\\build-cache\\48d279f2f7a96bd4fdc168a11b7c717af74b39d9\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_home_pd.xml",
+        "source": "D:\\Pet\\app\\src\\main\\res\\layout\\item_home_pd.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_toolbar.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\layout_toolbar.xml"
+    },
+    {
+        "merged": "F:\\pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pd.xml",
+        "source": "F:\\pet\\app\\src\\main\\res\\layout\\fragment_pd.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\Pet\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\new4\\.android\\build-cache\\3d1d31c83fe1ab8feb24a57815fed0c51fa2e6b8\\output\\res\\layout\\notification_template_lines_media.xml"
+    }
+]

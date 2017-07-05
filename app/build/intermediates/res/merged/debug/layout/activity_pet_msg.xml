@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    android:orientation="vertical"
+    tools:context="com.yianke.pet.view.activity.PetMsgActivity">
+
+
+    <include
+        layout="@layout/layout_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="172px"/>
+
+    <!--头像-->
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="323px">
+
+        <com.zhy.autolayout.AutoFrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:id="@+id/msg_headerImg"
+                android:layout_width="225px"
+                android:layout_height="225px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/default_pet_info_icon"/>
+
+            <ImageView
+                android:layout_width="64px"
+                android:layout_height="64px"
+                android:layout_gravity="bottom|right"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/camera"/>
+        </com.zhy.autolayout.AutoFrameLayout>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <!--宠物名称-->
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/parent_name"
+        android:layout_width="match_parent"
+        android:layout_height="168px"
+        android:background="@color/colorWhite">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="47px"
+            android:text="宠物名称"
+            android:textColor="#000000"
+            android:textSize="52px"/>
+
+        <EditText
+            android:id="@+id/msg_name"
+            android:layout_width="wrap_content"
+            android:layout_height="60px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="44px"
+            android:background="@null"
+            android:gravity="right|center_vertical"
+            android:hint="设置宠物名称"
+            android:minWidth="332px"
+            android:textColorHint="#cccccc"
+            android:textSize="51px"/>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <!--宠物性别-->
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="168px"
+        android:layout_marginTop="1px"
+        android:background="@color/colorWhite">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="47px"
+            android:text="宠物性别"
+            android:textColor="#000000"
+            android:textSize="52px"/>
+
+        <!--GG-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/parent_gg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="46px"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_gg"
+                android:layout_width="77px"
+                android:layout_height="77px"
+                android:adjustViewBounds="true"
+                android:background="@drawable/icon_pet_boy_light"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="31px"
+                android:text="GG"
+                android:textColor="#999999"
+                android:textSize="42px"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <!--MM-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/parent_mm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="74px"
+            android:layout_toLeftOf="@id/parent_gg"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_mm"
+                android:layout_width="77px"
+                android:layout_height="77px"
+                android:adjustViewBounds="true"
+                android:background="@drawable/icon_pet_sex_grey"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="31px"
+                android:text="MM"
+                android:textColor="#999999"
+                android:textSize="42px"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <!--宠物品种-->
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/parent_type"
+        android:layout_width="match_parent"
+        android:layout_height="168px"
+        android:layout_marginTop="1px"
+        android:background="@color/colorWhite">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="47px"
+            android:text="宠物品种"
+            android:textColor="#000000"
+            android:textSize="52px"/>
+
+        <ImageView
+            android:id="@+id/img_more"
+            android:layout_width="21px"
+            android:layout_height="42px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="43px"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_point_newpaget"/>
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="44px"
+            android:layout_toLeftOf="@id/img_more"
+            android:text="选择宠物品种"
+            android:textColor="#cccccc"
+            android:textSize="52px"/>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <!--宠物生日-->
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/parent_birthday"
+        android:layout_width="match_parent"
+        android:layout_height="168px"
+        android:layout_marginTop="1px"
+        android:background="@color/colorWhite">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="47px"
+            android:text="宠物生日"
+            android:textColor="#000000"
+            android:textSize="52px"/>
+
+        <ImageView
+            android:id="@+id/img_mores"
+            android:layout_width="21px"
+            android:layout_height="42px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="43px"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_point_newpaget"/>
+
+        <TextView
+            android:id="@+id/tv_birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="44px"
+            android:layout_toLeftOf="@id/img_mores"
+            android:text="选择宠物生日"
+            android:textColor="#cccccc"
+            android:textSize="52px"/>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <!--到家时间-->
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/parent_day"
+        android:layout_width="match_parent"
+        android:layout_height="168px"
+        android:layout_marginTop="1px"
+        android:background="@color/colorWhite">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="47px"
+            android:text="到家时间"
+            android:textColor="#000000"
+            android:textSize="52px"/>
+
+        <ImageView
+            android:id="@+id/img_moreday"
+            android:layout_width="21px"
+            android:layout_height="42px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="43px"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_point_newpaget"/>
+
+        <TextView
+            android:id="@+id/tv_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="44px"
+            android:layout_toLeftOf="@id/img_moreday"
+            android:text="选填"
+            android:textColor="#cccccc"
+            android:textSize="52px"/>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <!--以后添加 保存-->
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42px"
+        android:layout_marginRight="42px"
+        android:layout_marginTop="70px"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/msg_long"
+            android:layout_width="match_parent"
+            android:layout_height="168px"
+            android:layout_weight="1"
+            android:background="@drawable/shape_msg_btn_white"
+            android:gravity="center"
+            android:text="以后添加"
+            android:textColor="@color/colorPet"
+            android:textSize="60px"/>
+
+        <TextView
+            android:id="@+id/msg_save"
+            android:layout_width="match_parent"
+            android:layout_height="168px"
+            android:layout_marginLeft="35px"
+            android:layout_weight="1"
+            android:background="@drawable/shape_msg_btn_pet"
+            android:gravity="center"
+            android:text="保存"
+            android:textColor="@color/colorWhite"
+            android:textSize="60px"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="79px"
+        android:gravity="center"
+        android:text="你可以在“我的”页面中的“宠物”模块\n继续添加其他的爱宠"
+        android:textSize="39px"/>
+
+</com.zhy.autolayout.AutoLinearLayout>

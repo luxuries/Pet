@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="316px"
+    android:background="@color/colorWhite">
+
+
+    <com.yianke.pet.utils.CacheImageView
+        android:id="@+id/item_image"
+        android:layout_width="300px"
+        android:layout_height="222px"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="46px"/>
+
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="46px"
+        android:layout_marginRight="44px"
+        android:layout_toLeftOf="@id/item_image"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="58px"
+            android:text="世界献血者日：宠物用血为何这么难"
+            android:textColor="#000000"
+            android:textSize="56px"/>
+
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="34px">
+
+            <TextView
+                android:id="@+id/item_zhiding"
+                android:layout_width="92px"
+                android:layout_centerVertical="true"
+                android:layout_height="50px"
+                android:background="@drawable/shape_msg_text"
+                android:gravity="center"
+                android:text="置顶"
+                android:textColor="#f0aa76"
+                android:textSize="40px"/>
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:id="@+id/item_jingxuan"
+                android:layout_width="92px"
+                android:layout_height="50px"
+                android:layout_marginLeft="14px"
+                android:layout_toRightOf="@id/item_zhiding"
+                android:background="@drawable/shape_msg_text"
+                android:gravity="center"
+                android:text="精选"
+                android:textColor="#f0aa76"
+                android:textSize="40px"/>
+
+            <TextView
+                android:id="@+id/item_author"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18px"
+                android:layout_toRightOf="@id/item_jingxuan"
+                android:text="刀斥"
+                android:textColor="#b2b2b2"
+                android:textSize="36px"/>
+
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center">
+
+
+                <ImageView
+                    android:layout_width="50px"
+                    android:layout_height="40px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_watch_time"/>
+
+                <TextView
+                    android:id="@+id/item_watch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16px"
+                    android:text="2.1万"
+                    android:textColor="#b3b3b3"
+                    android:textSize="34px"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+</com.zhy.autolayout.AutoRelativeLayout>

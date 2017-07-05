@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pet</string>
+    <!--状态栏高度-->
+    <dimen name="statusbar_height">84px</dimen>
+</resources>

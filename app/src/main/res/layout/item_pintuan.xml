@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="404px"
+    android:layout_height="630px"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/item_img"
+        android:layout_width="260px"
+        android:layout_height="260px"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50px"/>
+
+    <TextView
+        android:id="@+id/item_descript"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="54px"
+        android:text="【天然健康膳\n食狗粮，提升..."/>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53px">
+
+        <TextView
+            android:id="@+id/item_mutchOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="39px"
+            android:text="￥39.9"
+            android:textColor="@color/colorPet"
+            android:textSize="36px"/>
+
+        <com.zhy.autolayout.AutoFrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="83px">
+
+            <TextView
+                android:id="@+id/item_mutchTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="￥99"
+                android:textColor="#989898"
+                android:textSize="39px"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_gravity="center_vertical"
+                android:background="#999999"/>
+        </com.zhy.autolayout.AutoFrameLayout>
+
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+</com.zhy.autolayout.AutoLinearLayout>
+

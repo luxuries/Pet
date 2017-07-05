@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/zazhi_parents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <!--ViewPager-->
+        <com.zhy.autolayout.AutoFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="740px">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/zazhi_viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_marginBottom="50px"
+                android:layout_marginRight="50px"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/inidc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/shape_msg_tuijian_circle_ff"
+                    android:scaleType="centerCrop"/>
+
+                <ImageView
+                    android:id="@+id/inidc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16px"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/shape_msg_tuijian_circle_f4"
+                    android:scaleType="centerCrop"/>
+
+                <ImageView
+                    android:id="@+id/inidc3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16px"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/shape_msg_tuijian_circle_f4"
+                    android:scaleType="centerCrop"/>
+
+                <ImageView
+                    android:id="@+id/inidc4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16px"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/shape_msg_tuijian_circle_f4"
+                    android:scaleType="centerCrop"/>
+
+                <ImageView
+                    android:id="@+id/inidc5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16px"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/shape_msg_tuijian_circle_f4"
+                    android:scaleType="centerCrop"/>
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+        </com.zhy.autolayout.AutoFrameLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/titles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="86px"
+                android:layout_marginTop="86px"
+                android:text="《有宠 YOURPET》"
+                android:textColor="#cccccc"
+                android:textSize="40px"/>
+
+            <TextView
+                android:layout_width="458px"
+                android:layout_height="1px"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="58px"
+                android:layout_toLeftOf="@id/titles"
+                android:background="#cccccc"/>
+
+            <TextView
+                android:layout_width="458px"
+                android:layout_height="1px"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="58px"
+                android:layout_toRightOf="@id/titles"
+                android:background="#cccccc"/>
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:descendantFocusability="blocksDescendants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/zhazi_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="56px"
+                android:layout_marginRight="56px"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

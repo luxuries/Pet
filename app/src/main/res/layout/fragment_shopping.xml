@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    android:orientation="vertical">
+
+    <!--顶部标题-->
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="172px"
+        android:background="@color/colorPet">
+
+        <!--分类-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/shop_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="51px"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="69px"
+                android:layout_height="66px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_mall_classify"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18px"
+                android:text="分类"
+                android:textColor="@color/colorWhite"
+                android:textSize="31px"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <!--有宠小二-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/shop_xiaoer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="71px"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="71px"
+                android:layout_height="70px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_mall_yourpet_waiter"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17px"
+                android:text="有宠小二"
+                android:textColor="@color/colorWhite"
+                android:textSize="30px"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <!--编辑框-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="98px"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="46px"
+            android:layout_marginRight="37px"
+            android:layout_toLeftOf="@id/shop_xiaoer"
+            android:layout_toRightOf="@id/shop_type"
+            android:background="#df4138">
+
+            <ImageView
+                android:layout_width="41px"
+                android:layout_height="42px"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="36px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_mall_search"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20px"
+                android:background="@null"
+                android:hint="买一送一"
+                android:textCursorDrawable="@drawable/shape_shop_cursor"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorWhite"
+                android:textSize="43px"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <ListView
+        android:id="@+id/shop_main"
+        android:dividerHeight="36px"
+        android:divider="#f4f4f4"
+        android:scrollbars="none"
+        android:layout_marginTop="172px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!--购物车-->
+    <ImageView
+        android:layout_width="168px"
+        android:layout_height="168px"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="60px"
+        android:layout_marginRight="60px"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_mall_cart"/>
+
+
+</com.zhy.autolayout.AutoFrameLayout>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    android:orientation="vertical"
+    tools:context="com.yianke.pet.view.activity.LoginActivity">
+
+    <include
+        layout="@layout/layout_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="172px"/>
+
+    <!--中国-->
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="168px"
+        android:layout_marginTop="70px"
+        android:background="@color/colorWhite">
+
+        <ImageView
+            android:id="@+id/img_phone"
+            android:layout_width="47px"
+            android:layout_height="47px"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="70px"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/login_counrty_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="44px"
+            android:layout_toRightOf="@id/img_phone"
+            android:text="中国"
+            android:textColor="#323232"
+            android:textSize="53px"/>
+
+        <ImageView
+            android:id="@+id/img_more"
+            android:layout_width="21px"
+            android:layout_height="42px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="70px"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_point_newpaget"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="31px"
+            android:layout_toLeftOf="@id/img_more"
+            android:text="+86"
+            android:textColor="#323232"
+            android:textSize="38px"/>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <!--分割线-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="42px"
+        android:background="@color/colorF0"/>
+
+    <!--输入手机号码-->
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/parent_phone"
+        android:layout_width="match_parent"
+        android:layout_height="168px"
+        android:background="@color/colorWhite"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="37px"
+            android:layout_height="70px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="75px"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/login_mobile_icon"/>
+
+        <EditText
+            android:id="@+id/register_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="75px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="44px"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="输入手机号码"
+            android:inputType="number"
+            android:maxLength="11"
+            android:textColorHint="#cccccc"
+            android:textCursorDrawable="@drawable/shape_register_editext"
+            android:textSize="52px"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <!--分割线-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="42px"
+        android:background="@color/colorF0"/>
+
+    <!--输入密码、-->
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/parent_pass"
+        android:layout_width="match_parent"
+        android:layout_height="168px"
+        android:background="@color/colorWhite"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <ImageView
+            android:id="@+id/img_pass"
+            android:layout_width="45px"
+            android:layout_height="60px"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="71px"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/login_pwd_icon"/>
+
+        <EditText
+            android:id="@+id/register_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="75px"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="44px"
+            android:layout_toRightOf="@id/img_pass"
+            android:background="@null"
+            android:hint="输入登录密码"
+            android:inputType="textPassword"
+            android:maxLength="11"
+            android:textColorHint="#cccccc"
+            android:textCursorDrawable="@drawable/shape_register_editext"
+            android:textSize="52px"/>
+
+        <ImageView
+            android:layout_width="147px"
+            android:layout_height="77px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="70px"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/login_mingw_icon"/>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <!--忘记了，登录-->
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42px"
+        android:layout_marginRight="42px"
+        android:layout_marginTop="70px"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/login_miss"
+            android:layout_width="match_parent"
+            android:layout_height="168px"
+            android:layout_weight="1"
+            android:background="@drawable/shape_msg_btn_white"
+            android:gravity="center"
+            android:text="忘记了？"
+            android:textColor="@color/colorPet"
+            android:textSize="60px"/>
+
+        <TextView
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="168px"
+            android:layout_marginLeft="35px"
+            android:layout_weight="1"
+            android:background="@drawable/shape_msg_btn_pet"
+            android:gravity="center"
+            android:text="登录"
+            android:textColor="@color/colorWhite"
+            android:textSize="60px"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <!--第三方登录-->
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120px"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/login_sina_login_btn_icon"/>
+
+
+        <ImageView
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_marginLeft="180px"
+            android:src="@drawable/login_weichat_login_btn_icon"/>
+
+        <ImageView
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_marginLeft="180px"
+            android:src="@drawable/login_qq_login_btn_icon"/>
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <!--更多方式登录-->
+    <TextView
+        android:id="@+id/login_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="79px"
+        android:text="更多方式登录>"
+        android:textColor="#b2b2b2"
+        android:textSize="41px"/>
+
+</com.zhy.autolayout.AutoLinearLayout>

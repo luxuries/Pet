@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/leader_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="251px"
+        android:text="精选功能升级"
+        android:textColor="@color/colorPet"
+        android:textSize="76px"/>
+
+    <TextView
+        android:id="@+id/leader_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="73px"
+        android:text="多图形式展现，演绎爱宠生活点滴"
+        android:textColor="@color/color9"
+        android:textSize="46px"/>
+
+    <ImageView
+        android:id="@+id/leader_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="300px"
+        android:layout_marginRight="300px"
+        android:layout_marginTop="105px"/>
+
+</com.zhy.autolayout.AutoLinearLayout>

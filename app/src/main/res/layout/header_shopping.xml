@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    android:orientation="vertical">
+
+    <!--Banner-->
+
+    <com.zhy.autolayout.AutoFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="552px">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/header_banner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="42px"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/indic1"
+                android:background="@drawable/shape_msg_tuijian_circle_ff"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/indic2"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/shape_msg_tuijian_circle_f4"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/indic3"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/shape_msg_tuijian_circle_f4"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/indic4"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/shape_msg_tuijian_circle_f4"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/indic5"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/shape_msg_tuijian_circle_f4"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+
+    </com.zhy.autolayout.AutoFrameLayout>
+
+
+
+
+    <!--主要的外贸入口-->
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="550px"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <!--主粮 零食 日用品 兑换专区-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <ImageView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:src="@drawable/zhuliang"/>
+
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/lingshi"/>
+
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/riyongpin"/>
+
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/duihuanzhuanqu"/>
+
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <!--医疗 保健 玩具 领券中心-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/yiliao"/>
+
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/baojian"/>
+
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/wanjv"/>
+
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/lingquanzhongxin"/>
+
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <!--更多-->
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42px"
+        android:background="@color/colorWhite">
+
+        <!--倒计时时间-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="35px"
+            android:layout_marginLeft="44px"
+            android:layout_marginTop="35px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="拼团"
+                android:textColor="#464646"
+                android:textSize="46px"/>
+
+            <TextView
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="43px"
+                android:background="@drawable/shape_shopping_time"
+                android:gravity="center"
+                android:text="00"
+                android:textColor="@color/colorWhite"
+                android:textSize="32px"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10px"
+                android:text="天"
+                android:textColor="#464646"
+                android:textSize="37px"/>
+
+            <TextView
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/shape_shopping_time"
+                android:gravity="center"
+                android:text="02"
+                android:textColor="@color/colorWhite"
+                android:textSize="32px"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10px"
+                android:text=":"
+                android:textColor="#464646"
+                android:textSize="37px"/>
+
+            <TextView
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/shape_shopping_time"
+                android:gravity="center"
+                android:text="08"
+                android:textColor="@color/colorWhite"
+                android:textSize="32px"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10px"
+                android:text=":"
+                android:textColor="#464646"
+                android:textSize="37px"/>
+
+            <TextView
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/shape_shopping_time"
+                android:gravity="center"
+                android:text="23"
+                android:textColor="@color/colorWhite"
+                android:textSize="32px"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <!--拼团   更多-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="44px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查看更多"
+                android:textColor="#999999"
+                android:textSize="40px"/>
+
+            <ImageView
+                android:layout_width="20px"
+                android:layout_height="38px"
+                android:layout_marginLeft="18px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icon_point_newpaget"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/header_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"/>
+
+
+
+</com.zhy.autolayout.AutoLinearLayout>

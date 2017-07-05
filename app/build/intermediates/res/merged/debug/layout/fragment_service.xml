@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--顶部标题-->
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="172px"
+            android:background="@color/colorPet">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="服务"
+                android:textColor="@color/colorWhite"
+                android:textSize="59px"/>
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+
+        <!--专家在线-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="224px"
+            android:background="@color/colorWhite">
+
+            <ImageView
+                android:layout_width="144px"
+                android:layout_height="144px"
+                android:layout_gravity="center"
+                android:layout_marginLeft="42px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/find_helper"/>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="39px">
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="专家在线"
+                        android:textColor="#000000"
+                        android:textSize="50px"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="31px"
+                        android:text="宠物专家为您解答各类养宠疑问"
+                        android:textColor="#999999"
+                        android:textSize="44px"/>
+                </com.zhy.autolayout.AutoLinearLayout>
+
+
+                <ImageView
+                    android:layout_width="21px"
+                    android:layout_height="42px"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="71px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/icon_point_newpaget"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_alignParentBottom="true"
+                    android:background="#e7e7e7"/>
+            </com.zhy.autolayout.AutoRelativeLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <!--同城服务-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="224px"
+            android:background="@color/colorWhite">
+
+            <ImageView
+                android:layout_width="144px"
+                android:layout_height="144px"
+                android:layout_gravity="center"
+                android:layout_marginLeft="42px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/card_city_service"/>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="39px">
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="同城服务"
+                        android:textColor="#000000"
+                        android:textSize="50px"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="31px"
+                        android:text="最齐全的宠物服务就在您身边"
+                        android:textColor="#999999"
+                        android:textSize="44px"/>
+                </com.zhy.autolayout.AutoLinearLayout>
+
+
+                <ImageView
+                    android:layout_width="21px"
+                    android:layout_height="42px"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="71px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/icon_point_newpaget"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_alignParentBottom="true"
+                    android:background="#e7e7e7"/>
+            </com.zhy.autolayout.AutoRelativeLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <!--养宠宝典-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="224px"
+            android:background="@color/colorWhite">
+
+            <ImageView
+                android:layout_width="144px"
+                android:layout_height="144px"
+                android:layout_gravity="center"
+                android:layout_marginLeft="42px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/service_tools_icon"/>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="39px">
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="养宠宝典"
+                        android:textColor="#000000"
+                        android:textSize="50px"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="31px"
+                        android:text="各类宝典助您成为养宠达人"
+                        android:textColor="#999999"
+                        android:textSize="44px"/>
+                </com.zhy.autolayout.AutoLinearLayout>
+
+
+                <ImageView
+                    android:layout_width="21px"
+                    android:layout_height="42px"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="71px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/icon_point_newpaget"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_alignParentBottom="true"
+                    android:background="#e7e7e7"/>
+            </com.zhy.autolayout.AutoRelativeLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <!--有宠智能-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="224px"
+            android:background="@color/colorWhite">
+
+            <ImageView
+                android:layout_width="144px"
+                android:layout_height="144px"
+                android:layout_gravity="center"
+                android:layout_marginLeft="42px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/card_hardware_icon"/>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="39px">
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="有宠智能"
+                        android:textColor="#000000"
+                        android:textSize="50px"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="31px"
+                        android:text="最专业智慧的养宠管家"
+                        android:textColor="#999999"
+                        android:textSize="44px"/>
+                </com.zhy.autolayout.AutoLinearLayout>
+
+
+                <ImageView
+                    android:layout_width="21px"
+                    android:layout_height="42px"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="71px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/icon_point_newpaget"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_alignParentBottom="true"
+                    android:background="#e7e7e7"/>
+            </com.zhy.autolayout.AutoRelativeLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <!--******************************************-->
+
+        <!--有宠公益-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="224px"
+            android:layout_marginTop="42px"
+            android:background="@color/colorWhite">
+
+            <ImageView
+                android:layout_width="144px"
+                android:layout_height="144px"
+                android:layout_gravity="center"
+                android:layout_marginLeft="42px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/find_commonweal"/>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="39px">
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="有宠公益"
+                        android:textColor="#000000"
+                        android:textSize="50px"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="31px"
+                        android:text="韩红爱心基金“有宠有爱”专项"
+                        android:textColor="#999999"
+                        android:textSize="44px"/>
+                </com.zhy.autolayout.AutoLinearLayout>
+
+
+                <ImageView
+                    android:layout_width="21px"
+                    android:layout_height="42px"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="71px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/icon_point_newpaget"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_alignParentBottom="true"
+                    android:background="#e7e7e7"/>
+            </com.zhy.autolayout.AutoRelativeLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <!--专业认证-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="224px"
+            android:background="@color/colorWhite">
+
+            <ImageView
+                android:layout_width="144px"
+                android:layout_height="144px"
+                android:layout_gravity="center"
+                android:layout_marginLeft="42px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/find_certificate_icon"/>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="39px">
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="专业认证"
+                        android:textColor="#000000"
+                        android:textSize="50px"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="31px"
+                        android:text="专家在线达人及专家申请入口"
+                        android:textColor="#999999"
+                        android:textSize="44px"/>
+                </com.zhy.autolayout.AutoLinearLayout>
+
+
+                <ImageView
+                    android:layout_width="21px"
+                    android:layout_height="42px"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="71px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/icon_point_newpaget"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_alignParentBottom="true"
+                    android:background="#e7e7e7"/>
+            </com.zhy.autolayout.AutoRelativeLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <!--商家入驻-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_marginBottom="358px"
+            android:layout_width="match_parent"
+            android:layout_height="224px"
+            android:background="@color/colorWhite">
+
+            <ImageView
+                android:layout_width="144px"
+                android:layout_height="144px"
+                android:layout_gravity="center"
+                android:layout_marginLeft="42px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/find_shop_icon"/>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="39px">
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="商家入驻"
+                        android:textColor="#000000"
+                        android:textSize="50px"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="31px"
+                        android:text="便捷高效的同城服务入驻渠道"
+                        android:textColor="#999999"
+                        android:textSize="44px"/>
+                </com.zhy.autolayout.AutoLinearLayout>
+
+
+                <ImageView
+                    android:layout_width="21px"
+                    android:layout_height="42px"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="71px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/icon_point_newpaget"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_alignParentBottom="true"
+                    android:background="#e7e7e7"/>
+            </com.zhy.autolayout.AutoRelativeLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+</ScrollView>

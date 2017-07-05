@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <!--顶部指示器-->
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="172px"
+        android:background="@color/colorPet">
+
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="68px"
+            android:layout_height="62px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="51px"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/walk_camera_icon"/>
+
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="273px"
+            android:layout_marginRight="273px"
+            android:weightSum="3">
+
+            <!--精选-->
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/home_one"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="精选"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="52px"/>
+
+                <TextView
+                    android:id="@+id/dic_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="7px"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorWhite"/>
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <!--动态-->
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/home_two"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="动态"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="52px"/>
+
+                <TextView
+                    android:id="@+id/dic_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="7px"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorPet"/>
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <!--频道-->
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/home_three"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="频道"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="52px"/>
+
+                <TextView
+                    android:id="@+id/dic_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="7px"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorPet"/>
+            </com.zhy.autolayout.AutoRelativeLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/home_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</com.zhy.autolayout.AutoLinearLayout>

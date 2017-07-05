@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--顶部标题-->
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="172px"
+            android:background="@color/colorPet">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="个人中心"
+                android:textColor="@color/colorWhite"
+                android:textSize="59px"/>
+
+            <com.yianke.pet.utils.CacheImageView
+                android:layout_width="68px"
+                android:layout_height="67px"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="54px"
+                android:src="@drawable/icon_qrcode"/>
+
+            <com.yianke.pet.utils.CacheImageView
+                android:layout_width="75px"
+                android:layout_height="80px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="50px"
+                android:adjustViewBounds="true"
+                android:src="@drawable/me_add_friend_icon"/>
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <!--头像  用户信息-->
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite">
+
+            <com.yianke.pet.utils.CacheImageView
+                android:id="@+id/me_headerImg"
+                android:layout_width="224px"
+                android:layout_height="224px"
+                android:layout_marginBottom="28px"
+                android:layout_marginLeft="42px"
+                android:layout_marginTop="28px"
+                android:src="@drawable/default_pet_middle"/>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="43px"
+                android:layout_toRightOf="@id/me_headerImg"
+                android:gravity="left|center_vertical"
+                android:orientation="vertical">
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="赵若位"
+                        android:textColor="#000000"
+                        android:textSize="59px"/>
+
+                    <com.yianke.pet.utils.CacheImageView
+                        android:layout_width="30px"
+                        android:layout_height="31px"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="17px"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/icon_space_boy"/>
+
+                    <TextView
+                        android:layout_width="65px"
+                        android:layout_height="35px"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="14px"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/level_bg_19_24"
+                        android:gravity="center"
+                        android:scaleType="centerCrop"
+                        android:text="Lv2"
+                        android:textColor="#5e290e"
+                        android:textSize="19px"/>
+
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="49px">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="有宠号："
+                        android:textColor="#999999"
+                        android:textSize="40px"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="39px"
+                        android:text="2120293"
+                        android:textSize="31px"/>
+                </com.zhy.autolayout.AutoLinearLayout>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+            <com.yianke.pet.utils.CacheImageView
+                android:layout_width="22px"
+                android:layout_height="42px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="43px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icon_point_newpaget"/>
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <!--签到 遛宠 消息-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="243px"
+            android:background="@color/colorWhite"
+            android:weightSum="3">
+            <!--签到-->
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.yianke.pet.utils.CacheImageView
+                    android:layout_width="60px"
+                    android:layout_height="52px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/me_past_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="27px"
+                    android:text="签到"
+                    android:textColor="#666666"
+                    android:textSize="35px"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <!--分割线-->
+            <TextView
+                android:layout_width="2px"
+                android:layout_height="91px"
+                android:layout_gravity="center"
+                android:background="#f4f4f4"/>
+
+            <!--溜宠-->
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.yianke.pet.utils.CacheImageView
+                    android:layout_width="60px"
+                    android:layout_height="52px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/me_walking_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="27px"
+                    android:text="遛宠"
+                    android:textColor="#666666"
+                    android:textSize="35px"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <!--分割线-->
+            <TextView
+                android:layout_width="2px"
+                android:layout_height="91px"
+                android:layout_gravity="center"
+                android:background="#f4f4f4"/>
+
+            <!--消息-->
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.yianke.pet.utils.CacheImageView
+                    android:layout_width="60px"
+                    android:layout_height="52px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/me_message_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="27px"
+                    android:text="消息"
+                    android:textColor="#666666"
+                    android:textSize="35px"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <!--宠物，优惠券 礼物-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="294px"
+            android:layout_marginTop="2px"
+            android:background="@color/colorWhite"
+            android:weightSum="4">
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="#464646"
+                    android:textSize="42px"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="45px"
+                    android:text="宠钻"
+                    android:textColor="#666666"
+                    android:textSize="40px"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="65"
+                    android:textColor="#464646"
+                    android:textSize="42px"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="45px"
+                    android:text="宠币"
+                    android:textColor="#666666"
+                    android:textSize="40px"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="#464646"
+                    android:textSize="42px"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="45px"
+                    android:text="优惠券"
+                    android:textColor="#666666"
+                    android:textSize="40px"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="#464646"
+                    android:textSize="42px"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="45px"
+                    android:text="礼物"
+                    android:textColor="#666666"
+                    android:textSize="40px"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <!--日常管理-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="154px"
+            android:layout_marginTop="42px"
+            android:background="@color/colorWhite">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="50px"
+                android:text="日常管理"
+                android:textColor="#464646"
+                android:textSize="47px"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <!--宠物  宠友 社区 收藏-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="295px"
+            android:layout_marginTop="2px"
+            android:background="@color/colorWhite"
+            android:weightSum="4">
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.yianke.pet.utils.CacheImageView
+                    android:layout_width="74px"
+                    android:layout_height="58px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/me_my_pet_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="43px"
+                    android:text="宠物"
+                    android:textColor="#666666"
+                    android:textSize="40px"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <TextView
+                android:layout_width="1px"
+                android:layout_height="91px"
+                android:layout_gravity="center"
+                android:background="#f4f4f4"/>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.yianke.pet.utils.CacheImageView
+                    android:layout_width="62px"
+                    android:layout_height="70px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/me_my_friend_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="43px"
+                    android:text="宠友"
+                    android:textColor="#666666"
+                    android:textSize="40px"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <TextView
+                android:layout_width="1px"
+                android:layout_height="91px"
+                android:layout_gravity="center"
+                android:background="#f4f4f4"/>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.yianke.pet.utils.CacheImageView
+                    android:layout_width="74px"
+                    android:layout_height="62px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/me_community_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="43px"
+                    android:text="社区"
+                    android:textColor="#666666"
+                    android:textSize="40px"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <TextView
+                android:layout_width="1px"
+                android:layout_height="91px"
+                android:layout_gravity="center"
+                android:background="#f4f4f4"/>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.yianke.pet.utils.CacheImageView
+                    android:layout_width="68px"
+                    android:layout_height="66px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/me_my_favorites_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="43px"
+                    android:text="收藏"
+                    android:textColor="#666666"
+                    android:textSize="40px"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <!--商城购物-->
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="154px"
+            android:layout_marginTop="42px"
+            android:background="@color/colorWhite">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50px"
+                android:text="商城购物"
+                android:textColor="#464646"
+                android:textSize="47px"/>
+
+            <com.yianke.pet.utils.CacheImageView
+                android:id="@+id/img_more"
+                android:layout_width="22px"
+                android:layout_height="42px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="43px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icon_point_newpaget"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="40px"
+                android:layout_toLeftOf="@id/img_more"
+                android:text="更多"
+                android:textColor="#999999"
+                android:textSize="47px"/>
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <!--购物车 购物订单 我的售后  收货地址-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="295px"
+            android:background="@color/colorWhite"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <!--购物车-->
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.yianke.pet.utils.CacheImageView
+                    android:layout_width="56px"
+                    android:layout_height="63px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/me_shop_cart_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40px"
+                    android:text="购物车"
+                    android:textColor="#666666"
+                    android:textSize="40px"/>
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <TextView
+                android:layout_width="1px"
+                android:layout_height="91px"
+                android:layout_gravity="center"
+                android:background="#f4f4f4"/>
+
+            <!--购物订单-->
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.yianke.pet.utils.CacheImageView
+                    android:layout_width="61px"
+                    android:layout_height="64px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/me_my_shop_order_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40px"
+                    android:text="购物订单"
+                    android:textColor="#666666"
+                    android:textSize="40px"/>
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <TextView
+                android:layout_width="1px"
+                android:layout_height="91px"
+                android:layout_gravity="center"
+                android:background="#f4f4f4"/>
+
+            <!--我的售后-->
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.yianke.pet.utils.CacheImageView
+                    android:layout_width="72px"
+                    android:layout_height="70px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/me_after_sales_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40px"
+                    android:text="我的售后"
+                    android:textColor="#666666"
+                    android:textSize="40px"/>
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <TextView
+                android:layout_width="1px"
+                android:layout_height="91px"
+                android:layout_gravity="center"
+                android:background="#f4f4f4"/>
+
+
+            <!--收货地址-->
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.yianke.pet.utils.CacheImageView
+                    android:layout_width="63px"
+                    android:layout_height="69px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/me_address_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40px"
+                    android:text="收货地址"
+                    android:textColor="#666666"
+                    android:textSize="40px"/>
+
+            </com.zhy.autolayout.AutoLinearLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <!--其他-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="154px"
+            android:layout_marginTop="42px"
+            android:background="@color/colorWhite">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="50px"
+                android:text="其他"
+                android:textColor="#464646"
+                android:textSize="47px"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <!--账户明细 个性装扮 游戏中心 意见反馈-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="294px"
+            android:layout_marginTop="2px"
+            android:background="@color/colorWhite"
+            android:weightSum="4">
+
+            <!--账户明细-->
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.yianke.pet.utils.CacheImageView
+                    android:layout_width="70px"
+                    android:layout_height="69px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/me_my_account_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="37px"
+                    android:text="账户明细"
+                    android:textColor="#666666"
+                    android:textSize="40px"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <TextView
+                android:layout_width="2px"
+                android:layout_height="90px"
+                android:layout_gravity="center"
+                android:background="#f4f4f4"/>
+
+            <!--个性装扮-->
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.yianke.pet.utils.CacheImageView
+                    android:layout_width="62px"
+                    android:layout_height="69px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/me_my_skin_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="37px"
+                    android:text="个性装扮"
+                    android:textColor="#666666"
+                    android:textSize="40px"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <TextView
+                android:layout_width="2px"
+                android:layout_height="90px"
+                android:layout_gravity="center"
+                android:background="#f4f4f4"/>
+
+            <!--游戏中心-->
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.yianke.pet.utils.CacheImageView
+                    android:layout_width="72px"
+                    android:layout_height="50px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/me_game_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="37px"
+                    android:text="游戏中心"
+                    android:textColor="#666666"
+                    android:textSize="40px"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <TextView
+                android:layout_width="2px"
+                android:layout_height="90px"
+                android:layout_gravity="center"
+                android:background="#f4f4f4"/>
+
+            <!--意见反馈-->
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.yianke.pet.utils.CacheImageView
+                    android:layout_width="67px"
+                    android:layout_height="64px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/me_feedback_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="37px"
+                    android:text="意见反馈"
+                    android:textColor="#666666"
+                    android:textSize="40px"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <!--设置-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="294px"
+            android:layout_marginBottom="168px"
+            android:background="@color/colorWhite"
+            android:weightSum="4">
+
+            <!--设置-->
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.yianke.pet.utils.CacheImageView
+                    android:layout_width="72px"
+                    android:layout_height="70px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/me_setting_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="37px"
+                    android:text="设置"
+                    android:textColor="#666666"
+                    android:textSize="40px"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+</ScrollView>

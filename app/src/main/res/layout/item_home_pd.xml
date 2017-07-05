@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190px">
+
+        <!--用户头像-->
+        <com.zhy.autolayout.AutoFrameLayout
+            android:id="@+id/user_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="42px">
+
+            <!--头像-->
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/user_headerImg"
+                android:layout_width="120px"
+                android:layout_height="120px"
+                fresco:placeholderImage="@drawable/pd_header"
+                fresco:roundAsCircle="true"/>
+
+
+            <ImageView
+                android:layout_width="35px"
+                android:layout_height="35px"
+                android:layout_gravity="bottom|right"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/user_redskin_icon_big"/>
+        </com.zhy.autolayout.AutoFrameLayout>
+
+        <!--关注-->
+        <TextView
+            android:layout_width="224px"
+            android:layout_height="88px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="40px"
+            android:background="@drawable/shape_jx_guanzhu"
+            android:gravity="center"
+            android:text="+关注"
+            android:textColor="@color/colorPet"/>
+
+        <!--用户信息资料-->
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="38px"
+            android:layout_marginTop="36px"
+            android:layout_toRightOf="@id/user_header"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <!--用户名 用户地址-->
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Summer麻"
+                android:textColor="#507daf"
+                android:textSize="46px"/>
+
+
+            <TextView
+                android:id="@+id/user_pet_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:layout_marginLeft="16px"
+                android:layout_marginTop="24px"
+                android:text="summer"
+                android:textColor="#464646"
+                android:textSize="40px"/>
+
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+    <TextView
+        android:id="@+id/item_descript"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42px"
+        android:layout_marginRight="42px"
+        android:textSize="52px"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/item_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="35px"
+        android:layout_marginRight="35px"
+        android:layout_marginTop="40px"/>
+
+
+    <!--用户互动-->
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50px"
+        android:layout_marginLeft="42px"
+        android:layout_marginRight="42px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="热赞宠友"
+            android:textColor="#999999"
+            android:textSize="40px"/>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5px"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="50px"
+                android:layout_height="46px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/moment_like_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16px"
+                android:text="49"
+                android:textColor="#999999"
+                android:textSize="32px"/>
+
+            <ImageView
+                android:layout_width="54px"
+                android:layout_height="48px"
+                android:layout_marginLeft="46px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/moment_comment_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16px"
+                android:text="40"
+                android:textColor="#999999"
+                android:textSize="32px"/>
+
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+</com.zhy.autolayout.AutoLinearLayout>

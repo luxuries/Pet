@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    android:orientation="vertical"
+    tools:context="com.yianke.pet.view.activity.VerificationCodeActivity">
+
+    <include
+        layout="@layout/layout_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="172px"/>
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="188px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="72px"
+            android:text="验证码已发送到"
+            android:textColor="#464646"
+            android:textSize="50px"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="35px"
+            android:text="+86 12345678901"
+            android:textColor="@color/colorPet"
+            android:textSize="41px"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="168px"
+        android:background="@color/colorWhite"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <ImageView
+            android:id="@+id/img_code"
+            android:layout_width="45px"
+            android:layout_height="58px"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="71px"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_verify_code"/>
+
+        <TextView
+            android:id="@+id/code_nums"
+            android:layout_width="224px"
+            android:layout_height="91px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="70px"
+            android:background="@drawable/shape_code"
+            android:gravity="center"
+            android:text="60 s"
+            android:textColor="#cccccc"
+            android:textSize="32px"/>
+
+        <EditText
+            android:id="@+id/code_getnums"
+            android:layout_width="match_parent"
+            android:layout_height="60px"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="42px"
+            android:layout_toLeftOf="@id/code_nums"
+            android:layout_toRightOf="@id/img_code"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="输入验证码"
+            android:textColorHint="#cccccc"
+            android:textSize="52px"/>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <TextView
+        android:id="@+id/code_btn"
+        android:text="确定"
+        android:textSize="59px"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="168px"
+        android:layout_marginLeft="42px"
+        android:layout_marginRight="42px"
+        android:layout_marginTop="70px"
+        android:background="@drawable/shape_register_btn_32"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="79px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="使用有宠，就表示你同意有宠的"
+            android:textColor="#999999"
+            android:textSize="39px"/>
+
+        <TextView
+            android:id="@+id/register_agree"
+            android:layout_width="168px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3px"
+            android:drawableBottom="@drawable/shape_register_agreebottom"
+            android:gravity="left"
+            android:text="用户协议"
+            android:textColor="#666666"
+            android:textSize="39px"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

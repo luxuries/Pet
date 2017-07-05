@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/item_parents"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="66px"
+    android:layout_marginRight="66px"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/item_image"
+        android:layout_width="530px"
+        android:layout_height="756px"
+        android:layout_gravity="center_horizontal"/>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="530px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="90px"
+        android:layout_marginTop="50px">
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="第12期"
+            android:textColor="#000000"
+            android:textSize="40px"/>
+
+        <TextView
+            android:id="@+id/item_times"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="May.2017"
+            android:textColor="#b2b2b2"
+            android:textSize="36px"/>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+</com.zhy.autolayout.AutoLinearLayout>

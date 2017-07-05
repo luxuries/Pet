@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context="com.yianke.pet.view.activity.LeaderActivity">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/leader_img"
+        android:layout_width="match_parent"
+        android:layout_height="1348px"
+        android:layout_gravity="center_horizontal"/>
+
+    <!--引导页指示器-->
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="21px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="114px">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/leader_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shape_leader_circle_f0"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shape_leader_circle_f0"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shape_leader_circle_f0"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shape_leader_circle_f0"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <ImageView
+            android:id="@+id/leader_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/shape_leader_circle_pet"/>
+
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <!--注册-->
+    <TextView
+        android:id="@+id/leader_register"
+        android:layout_width="match_parent"
+        android:layout_height="167px"
+        android:layout_marginLeft="413px"
+        android:layout_marginRight="413px"
+        android:layout_marginTop="321px"
+        android:background="@drawable/shape_leader_register"
+        android:gravity="center"
+        android:text="注册"
+        android:textColor="@color/colorWhite"
+        android:textSize="54px"/>
+
+    <!--登录-->
+    <TextView
+        android:id="@+id/leader_login"
+        android:layout_width="match_parent"
+        android:layout_height="167px"
+        android:layout_marginLeft="413px"
+        android:layout_marginRight="413px"
+        android:layout_marginTop="42px"
+        android:background="@drawable/shape_leader_login"
+        android:gravity="center"
+        android:text="登录"
+        android:textColor="@color/colorPet"
+        android:textSize="54px"/>
+
+</com.zhy.autolayout.AutoLinearLayout>

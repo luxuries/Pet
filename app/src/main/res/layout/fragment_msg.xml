@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+
+    <!--标题-->
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="128px"
+        android:background="@color/colorPet">
+
+        <!--添加按钮-->
+        <ImageView
+            android:id="@+id/msg_add"
+            android:layout_width="110px"
+            android:layout_height="110px"
+            android:adjustViewBounds="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_news_add_press"/>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="52px"
+            android:orientation="horizontal"
+            android:weightSum="6"
+            android:layout_toLeftOf="@id/msg_add">
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/msg_title1"
+                android:layout_weight="1"
+                android:layout_width="0px"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/msg_text1"
+                    android:text="推荐"
+                    android:textSize="52px"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/colorWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/msg_line1"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorPet"
+                    android:layout_width="match_parent"
+                    android:layout_height="6px"/>
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/msg_title2"
+                android:layout_weight="1"
+                android:layout_width="0px"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/msg_text2"
+                    android:text="要闻"
+                    android:textSize="52px"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/colorWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/msg_line2"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorPet"
+                    android:layout_width="match_parent"
+                    android:layout_height="6px"/>
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/msg_title3"
+                android:layout_weight="1"
+                android:layout_width="0px"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/msg_text3"
+                    android:text="动漫"
+                    android:textSize="52px"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/colorWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/msg_line3"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorPet"
+                    android:layout_width="match_parent"
+                    android:layout_height="6px"/>
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/msg_title4"
+                android:layout_weight="1"
+                android:layout_width="0px"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/msg_text4"
+                    android:text="杂志"
+                    android:textSize="52px"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/colorWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/msg_line4"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorPet"
+                    android:layout_width="match_parent"
+                    android:layout_height="6px"/>
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/msg_title5"
+                android:layout_weight="1"
+                android:layout_width="0px"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/msg_text5"
+                    android:text="学堂"
+                    android:textSize="52px"
+                    android:textColor="@color/colorWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:id="@+id/msg_line5"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorPet"
+                    android:layout_width="match_parent"
+                    android:layout_height="6px"/>
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/msg_title6"
+                android:layout_weight="1"
+                android:layout_width="0px"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/msg_text6"
+                    android:text="官方"
+                    android:textSize="52px"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/colorWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/msg_line6"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorPet"
+                    android:layout_width="match_parent"
+                    android:layout_height="6px"/>
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/msg_ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</com.zhy.autolayout.AutoLinearLayout>
